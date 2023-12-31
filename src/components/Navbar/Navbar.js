@@ -48,7 +48,7 @@ const Navbar = () => {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [dispatch]);
 
   const handleOpenLoginDialog = () => {
     setOpenLogin(true);
