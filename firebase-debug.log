@@ -1,0 +1,74 @@
+[debug] [2023-12-05T14:18:27.022Z] ----------------------------------------------------------------------
+[debug] [2023-12-05T14:18:27.026Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\utshav\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-05T14:18:27.026Z] CLI Version:   12.9.1
+[debug] [2023-12-05T14:18:27.027Z] Platform:      win32
+[debug] [2023-12-05T14:18:27.027Z] Node Version:  v20.9.0
+[debug] [2023-12-05T14:18:27.027Z] Time:          Tue Dec 05 2023 19:48:27 GMT+0530 (India Standard Time)
+[debug] [2023-12-05T14:18:27.027Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-05T14:18:27.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-05T14:18:27.037Z] > authorizing via signed-in user (utsav.softrefine@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Softrefine Tasks\react-test-7-UtsavSoftrefineTech\react-master-project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-05T14:18:41.770Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-05T14:18:42.849Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-12-05T14:18:42.849Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project react-master-project-a4daf (react-master-project) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-05T14:18:44.880Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-master-project-a4daf [none]
+[debug] [2023-12-05T14:18:45.312Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-master-project-a4daf 200
+[debug] [2023-12-05T14:18:45.313Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-master-project-a4daf {"projectId":"react-master-project-a4daf","projectNumber":"232941566243","displayName":"react-master-project","name":"projects/react-master-project-a4daf","resources":{"hostingSite":"react-master-project-a4daf"},"state":"ACTIVE","etag":"1_76a66c94-fb62-4ef1-9dd4-9444868890d5"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-12-05T14:18:55.399Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-12-05T14:18:55.547Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-12-05T14:18:55.548Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.0","browserURL":"https://www.gstatic.com/firebasejs/10.7.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.0/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.memory.js"}}
+[info] +  Wrote y/index.html 
+[info] 
+[info] i  Detected a .git folder at D:\Softrefine Tasks\react-test-7-UtsavSoftrefineTech 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1032349673&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-12-05T14:19:07.676Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-12-05T14:19:07.677Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-12-05T14:19:08.072Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-12-05T14:19:08.072Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-12-05T14:19:08.084Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-12-05T14:19:08.487Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-12-05T14:19:08.487Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"UtsavSoftrefineTech","id":135974253,"node_id":"U_kgDOCBrNbQ","avatar_url":"https://avatars.githubusercontent.com/u/135974253?v=4","gravatar_id":"","url":"https://api.github.com/users/UtsavSoftrefineTech","html_url":"https://github.com/UtsavSoftrefineTech","followers_url":"https://api.github.com/users/UtsavSoftrefineTech/followers","following_url":"https://api.github.com/users/UtsavSoftrefineTech/following{/other_user}","gists_url":"https://api.github.com/users/UtsavSoftrefineTech/gists{/gist_id}","starred_url":"https://api.github.com/users/UtsavSoftrefineTech/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/UtsavSoftrefineTech/subscriptions","organizations_url":"https://api.github.com/users/UtsavSoftrefineTech/orgs","repos_url":"https://api.github.com/users/UtsavSoftrefineTech/repos","events_url":"https://api.github.com/users/UtsavSoftrefineTech/events{/privacy}","received_events_url":"https://api.github.com/users/UtsavSoftrefineTech/received_events","type":"User","site_admin":false,"name":"Utsav Desai","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"Utsav Desai is a technology enthusiast with an interest in DevOps, App Development, Web Development, and Machine Learning.","twitter_username":null,"public_repos":22,"public_gists":0,"followers":0,"following":0,"created_at":"2023-06-08T11:35:26Z","updated_at":"2023-11-25T13:13:06Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":14058,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as UtsavSoftrefineTech 
+[info] 
+[debug] [2023-12-05T14:19:19.002Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-12-05T14:19:19.398Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-12-05T14:19:19.398Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
