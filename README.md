@@ -44,7 +44,7 @@ Be creative! Add extra features to enhance the project.
 
 ## Live Demo
 
-Experience the React Master Project live! Check out the [Live Demo](https://your-live-demo-url.com).
+Experience the React Master Project live! Check out the [Live Demo](https://react-master-project.netlify.app/).
 
 ## How to Use
 
